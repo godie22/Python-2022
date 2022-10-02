@@ -1,0 +1,279 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+.padre {
+    margin: auto;
+    flex-direction: column;
+}
+
+body {
+    margin: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    min-height: 70px;
+    background-color: #0a8862;
+    color: white;
+    padding: 10px;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    
+}
+
+.logo img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+
+header .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+ 
+a {
+    color: white;
+    text-decoration: none;
+}
+
+
+nav a {
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+    padding-right: 16px;
+    
+}
+
+
+nav a:hover {
+    color: #a6da18
+
+}
+
+
+@media (max-width: 700px) {
+    header {
+        flex-direction: column;
+    }
+    nav {
+        padding:  10px 0px;
+    }
+}
+
+@media (min-width: 700px) {
+    header {
+        flex-direction: column;
+    }
+    nav {
+        padding:  10px 0px;
+    }
+
+}
+
+
+@media (max-width: 1200px) {
+    header {
+        flex-direction: column;
+    }
+    nav {
+        padding:  10px 0px;
+    }
+}
+
+ 
+
+
+.contenedor {
+    width: 100%;
+    height: 700px;
+    margin:  auto;
+    display: flex;    
+   
+}
+
+
+.fotos {
+    width: 100%;
+    height: 100%;   
+    display: flex;
+    flex-flow: column nowrap;      
+    background-color: #18e054;    
+      
+} 
+
+
+.fotografias {
+   margin-bottom: 5px;
+}
+
+
+.diagramacion {
+    width: 1200px;
+    height: 680px;
+    display: flex;
+    flex-flow: row wrap;
+    background-color: #18e054;
+   
+    
+}
+
+
+.titulotips {  
+    display: flex;  
+    width: 50%;
+    height:150px;
+    font-size: 2em;    
+    color: #054e4e;    
+    padding: 50px 40px;
+    text-align: center; 
+    align-content: center;
+    margin: auto;
+    
+    
+    
+}
+
+
+.listatips{
+    display: flex;      
+    width: 100%;
+    height: 550px;
+    margin: auto;     
+    padding: 20px;
+    flex-direction:column;
+    
+    
+}
+
+#einstein {    
+    margin-right: 190px;
+    margin-top: 20px;
+    
+}
+
+ .listatips li {
+
+    display: flex;         
+    padding:  15px;
+    background-color: #04491b;
+    margin-bottom: 20px;
+    text-decoration: none; 
+    border-radius: 40px;
+    font-size: 0.9em; 
+    text-align: center; 
+}
+
+.listatips  a {
+   
+   color: rgb(198, 252, 5);
+}
+
+
+
+footer {
+    width: 100%;
+    height: 250px;
+    background-color: #0a8862;
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+    font-weight: 500;
+    font-size: 1.2em;
+  }
+
+  .pie {
+    background-color: #fcc308;
+    color: black;
+  }
+
+/* ////////////////////////////////////////////////////////// */
+/* Estilos de la Pagina de TRUCOS para estudiar  */
+
+
+#trucos {
+    width: 100%;
+    height: 78%;
+    padding: 20px;
+    
+    overflow: scroll;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+/* ////////////////////////////////////////////////////////// */
+/* Estilos de la Pagina de Como estudiar Rapido , facil y bien (Todo igual) */
+
+#Estudiarbien {
+    width: 100%;
+    height: 78%;
+    padding: 20px;    
+    overflow: scroll;
+
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+/* ////////////////////////////////////////////////////////// */
+/* Estilos de la Pagina de Como estudiar INGLES  */
+
+#estudiaringles {
+    width: 100%;
+    height: 78%;
+    padding: 20px;    
+    overflow: scroll;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+/* ////////////////////////////////////////////////////////// */
+/* Estilos de la Pagina de Apuntes Virtuales  */
+
+
+#apuntes {
+    width: 100%;
+    height: 78%;
+    padding: 20px;    
+    overflow: scroll;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+#einstein img:hover{
+    cursor: pointer;
+    
+}
